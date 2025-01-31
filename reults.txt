@@ -1,0 +1,22 @@
+200 epochs completed in 0.343 hours.
+Optimizer stripped from runs/detect/train25/weights/last.pt, 52.2MB
+Optimizer stripped from runs/detect/train25/weights/best.pt, 52.2MB
+
+Validating runs/detect/train25/weights/best.pt...
+WARNING ⚠️ validating an untrained model YAML will result in 0 mAP.
+Python-3.10.12 torch-2.5.1+cu124 CUDA:0 (NVIDIA GeForce RTX 2080 SUPER, 7967MiB)
+                                                       CUDA:1 (NVIDIA GeForce RTX 2080 SUPER, 7960MiB)
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 7/7 [00:01<00:00,  4.92it/s]
+                   all        103        327      0.825      0.868      0.904      0.583
+                  F_16         31         77      0.749      0.738       0.81      0.471
+                  F_35         11         21      0.748          1       0.97      0.527
+                  F_15         11         36       0.85      0.942      0.905      0.543
+                    WB         17         27      0.757      0.852      0.927       0.76
+                Mig_21         15         63      0.792      0.603      0.763      0.418
+                   A10         17         59      0.974          1      0.991      0.723
+                  Heli         10         31      0.879      0.806        0.9      0.497
+                 Su_27          3         13      0.848          1      0.968      0.723
+Speed: 0.2ms preprocess, 9.6ms inference, 0.0ms loss, 0.2ms postprocess per image
+Results saved to runs/detect/train25
+
