@@ -3,14 +3,14 @@ This repo introduces Fighter-Net model architecture with convolutional layers in
 
 ![Uploading Fighter-Net Architecture.png…]()
 
-![A10-7](https://github.com/user-attachments/assets/96069ca2-b413-4cc3-ae09-f29674adffbb)
-![F16(italy)-7](https://github.com/user-attachments/assets/e60db716-0077-416d-a0fe-80a84992c874)
 ![slice_ethopia merged_x1942_y3189](https://github.com/user-attachments/assets/a91eb3bb-83c3-45df-a705-471da2e56c42)
 ![slice_hill base (7-2016)_x6066_y6025](https://github.com/user-attachments/assets/f2ffbb28-0f08-4207-9209-faadefe9dc83)
 ![labels](https://github.com/user-attachments/assets/f0145a5e-14c3-49d7-ab52-d37232c67343)
 ![labels_correlogram](https://github.com/user-attachments/assets/e201220a-011a-4ca7-9e5b-6cfa50b5a357)
 ![confusion_matrix_normalized](https://github.com/user-attachments/assets/08fe54ba-4895-4ac2-82eb-bbd3d4cd6f71)
 ![Uploading val_batch1_labels.jpg…]()
+![train_batch1980](https://github.com/user-attachments/assets/9c50bc41-d5fb-4899-a7fe-be82ce0ffeb5)
+![results](https://github.com/user-attachments/assets/da8202df-633b-4ca2-9059-bb7741da5cc2)
 
 
 ## Step 1: Create a new environment
