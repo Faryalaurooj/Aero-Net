@@ -1,7 +1,7 @@
 # Aero-Net
 This repo introduces Aero-Net model architecture with convolutional layers integrated with transformer encoders to capture both local and global contextual information, Multi-scale attention module is used to process features of objects at multiple scales and feature fusion module concatenates multi-scale features and a cascading network for precise classification. We will use this framework to perform aircraft type recognition from remote sensing images which is a difficuilt task.
 
-![Uploading Fighter-Net Architecture.png…]()
+![Uploading Aero-Net Architecture.png…]()
 
 ![slice_ethopia merged_x1942_y3189](https://github.com/user-attachments/assets/a91eb3bb-83c3-45df-a705-471da2e56c42)
 ![slice_hill base (7-2016)_x6066_y6025](https://github.com/user-attachments/assets/f2ffbb28-0f08-4207-9209-faadefe9dc83)
@@ -14,10 +14,10 @@ This repo introduces Aero-Net model architecture with convolutional layers integ
 
 
 ## Step 1: Create a new environment
-`conda create -n fighter-net-env python=3.8`
+`conda create -n Aero-net-env python=3.8`
 
 ## Step 2: Activate the environment
-`conda activate fighter-net-env`
+`conda activate Aero-net-env`
 
 ## Step 3: Install dependencies
 `pip install -r requirements.txt`
@@ -38,7 +38,7 @@ Explanation:
     
     
 ## Step 6: Run predictions after training
-`python predict.py --config config.yaml --model-path ./trained_models/fighter_net_epoch_50.pth --image-path ./data/test/sample_image.jpg --model-size medium --output-dir ./predictions`
+`python predict.py --config config.yaml --model-path ./trained_models/Aero_net_epoch_50.pth --image-path ./data/test/sample_image.jpg --model-size medium --output-dir ./predictions`
 
 
 Explanation:
